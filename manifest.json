@@ -2,6 +2,7 @@
     "name": "Feliznavidadnuncacambien",
     "short_name": "Feliznavida",
     "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
     "icons": [{
       "src": "media/img/icon/192.png",
       "sizes": "192x192",
