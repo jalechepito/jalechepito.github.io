@@ -9,7 +9,7 @@ h2 {
     margin: 0 0 16px;
 }
 
-video {
+video, iframe {
     margin:0;
     padding:0;
     border:0;
@@ -18,6 +18,12 @@ video {
     vertical-align:baseline;
     background:transparent;
     width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    iframe {
+        height: 315px;
+    }
 }
 
 .Site {
